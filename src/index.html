@@ -27,10 +27,42 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="data" role="tabpanel" aria-labelledby="data-tab">
                     <div class="p-3">
-                        <h3>Data Content</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <div class="container mt-4">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="p-3 border bg-light">
+                                    <h5>January</h5>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="p-3 border bg-light">
+                                    <h5>February</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="p-3 border bg-light">
+                                    <label for="january-income" class="form-label">January Income</label>
+                                    <input type="number" class="form-control" id="january-income" placeholder="Enter income">
+                                </div>
+                                <div class="p-3 border bg-light mt-3">
+                                    <label for="january-expense" class="form-label">January Expense</label>
+                                    <input type="number" class="form-control" id="january-expense" placeholder="Enter expense">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="p-3 border bg-light">
+                                    <label for="february-income" class="form-label">February Income</label>
+                                    <input type="number" class="form-control" id="february-income" placeholder="Enter income">
+                                </div>
+                                <div class="p-3 border bg-light mt-3">
+                                    <label for="february-expense" class="form-label">February Expense</label>
+                                    <input type="number" class="form-control" id="february-expense" placeholder="Enter expense">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="chart" role="tabpanel" aria-labelledby="chart-tab">
